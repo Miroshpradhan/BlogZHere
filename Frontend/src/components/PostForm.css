@@ -1,0 +1,184 @@
+.post-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px;
+  }
+  
+  .post-form__title {
+    font-size: 37px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    color:  hsl(0, 0%, 99%);
+    padding-left: 10px;
+      margin-left: 20px;
+  }
+  
+  .post-form__form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 50%;
+    background-color: rgb(240, 242, 245);
+  }
+  
+h1 {
+  font-size: 38px;
+  font-weight: bold;
+  margin-bottom: 20px;
+  color:  hsl(235, 18%, 26%);
+  padding-left: 10px;
+    margin-left: 20px;
+  
+}
+  .post-form__option {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+    color: rgb(250, 212, 212);
+  }
+  
+  .post-form__option label {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-right: 10px;
+    color: rgb(15, 15, 14);
+  }
+  
+  .post-form__option select {
+    font-size: 1.5rem;
+    padding: 5px;
+    border: 2px solid #f6dbdb;
+    border-radius: 5px;
+  }
+  
+  .post-form__field {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .post-form__field label {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-right: 10px;
+    color: rgb(27, 23, 23);
+  }
+  
+  .post-form__field input[type="file"] {
+    font-size: 1.5rem;
+    padding: 5px;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .post-form__button {
+    font-size: 1.5rem;
+    font-weight: 700;
+    padding: 10px 20px;
+    width: 80%;
+    border: none;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    background-color: hsl(234, 29%, 20%);
+    color: rgb(254, 252, 252);
+    cursor: pointer;
+  }
+  
+  .post-form__button:hover {
+    background-color: #45a049;
+  }
+  .post-preview {
+    margin-top: 20px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .post-preview h3 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+  }
+  
+  .post-preview p {
+    margin-bottom: 10px;
+  }
+  
+  .post-preview img {
+    max-width: 90%;
+    height: auto;
+    margin-bottom: 10px;
+  }
+  
+  .post-preview video {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+  }
+  
+  .likes-comments {
+    display: flex;
+    justify-content: space-between;
+    font-size: 1rem;
+    color: #777;
+  }
+  
+  .post-form__message {
+    margin-top: 20px;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: #f2dede;
+    color: #a94442;
+  }
+  .options {
+    position: absolute;
+    top: 100%;
+    right: 0;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    z-index: 1;
+    display: none;
+  }
+  
+  .ellipsis:hover .options {
+    display: block;
+  }
+  .file-actions {
+    display: flex;
+    align-items: center;
+  }
+  
+  .edit-file-btn,
+  .remove-file-btn {
+    background: none;
+    border: none;
+    cursor: pointer;
+    padding: 0;
+    margin-right: 10px;
+  }
+  
+  .edit-file-btn:hover,
+  .remove-file-btn:hover {
+    color: #333;
+  }
+  
+  .edit-file-btn:focus,
+  .remove-file-btn:focus {
+    outline: none;
+  }
+  
+  .edit-file-btn svg,
+  .remove-file-btn svg {
+    font-size: 20px;
+  }
+  
+  .edit-file-btn svg {
+    color: #007bff; /* blue color */
+  }
+  
+  .remove-file-btn svg {
+    color: #dc3545; /* red color */
+  }
+  
